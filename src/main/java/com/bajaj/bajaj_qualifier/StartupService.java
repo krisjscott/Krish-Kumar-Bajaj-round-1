@@ -37,7 +37,9 @@ public class StartupService {
             Map<String, String> requestBody = new HashMap<>();
             requestBody.put("name", "Krish Kumar");
             requestBody.put("regNo", "ADT23SOCB059");
+            requestBody.put("email", "krishkumar6566@gmail.com");
             requestBody.put("email", "thekrishrockkumar@gmail.com");
+
 
             HttpEntity<Map<String, String>> request = new HttpEntity<>(requestBody, headers);
             
